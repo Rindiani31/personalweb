@@ -1,87 +1,87 @@
 <!DOCTYPE html>
 <html>
 <head>
- <meta charset="utf-8">
- <title>Belajar HTML</title>
+  <meta charset="utf-8">
+    <!-- judul CV -->
+  <title>CV - Kayla Natasya</title>
+    <!-- mengarahkan link kode ke css -->
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
- <!-- Ini adalah body -->
- <!-- ini adalah teks -->
- <p> </p>
-</body>
-</html>
-<html>
-<head>
- <meta charset="utf-8">
- <title>Belajar HTML</title>
-</head>
-<body>
- <!-- Belajar Headings dan Paragraph-->
- <h1>Ini adalah hasil dari h1</h1>
- <h2>Ini adalah hasil dari h2</h2>
- <h3>Ini adalah hasil dari h3</h3>
- <h4>Ini adalah hasil dari h4</h4>
- <h5>Ini adalah hasil dari h5</h5>
- <h6>Ini adalah hasil dari h6</h6>
-</body>
-</html>
-<html>
-<head>
- <meta charset="utf-8">
- <title>Belajar HTML</title>
-</head>
-<body>
- <!-- Belajar Headings dan Paragraph-->
- <h1>Ini adalah judul menggunakan h1</h1>
- <p>Ini adalah paragraph</p>
-</body>
-</html>
-<html>
-<head>
- <meta charset="utf-8">
- <title>Belajar HTML</title>
-</head>
-<body>
- <!-- Belajar List-->
- <ol>
-  <li>Membaca</li>
-  <li>Menulis</li>
-  <li>Memasak</li>
-  <li>Bernyanyi</li>
-  <li>Berenang</li>
- </ol>
-</body>
-</html>
-<html>
-<head>
- <meta charset="utf-8">
- <title>Belajar HTML</title>
-</head>
-<body>
- <!-- Belajar Table-->
-  <table border="1">
-   <tr>
-    <td>Baris 1 Kolom 1</td>
-    <td>Baris 1 Kolom 2</td>
-   </tr>
-   <tr>
-    <td>Baris 2 Kolom 1</td>
-    <td>Baris 2 Kolom 2</td>
-   </tr>
-   <tr>
-    <td>Baris 3 Kolom 1</td>
-    <td>Baris 3 Kolom 2</td>
-   </tr>
-  </table>
-</body>
-</html>
-<html>
-<head>
- <meta charset="utf-8">
- <title>Belajar HTML</title>
-</head>
-<body>
- <!-- Belajar Menyisipkan Gambar-->
- <img src="profile.png" />
+  <div class="container">
+    <!-- Judul Halaman -->
+    <h1>Curriculum Vitae</h1>
+    <!-- penghubung ke kode link portofolio, dan contact -->
+    <div class="navbar">
+        <ul type="square" class="list-nav">
+            <li><a href="#" class="active">About</a></li>
+            <li><a href="portofolio.html">Portofolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+      </div>
+      <!-- Konten -->
+      <div class="content">
+        <!-- Profil -->
+          <div id="content-img">
+            <div class="content1">
+                    <!-- foto profile -->
+              <img src="img/foto kayla.jpeg">
+                <h2 class="content-header">KAYLA NATASYA</h2>
+               <p class="content-text">
+                <b>Siswa smks al washliyah 2 perdagangan</b>
+                </p>
+             </div>
+         </div>
+         <!-- Deskripsi Singkat -->
+          <section class="section section-small">
+             <h2 class="section-header">About</h2>
+            <p>Saya adalah siswa SMK SWASTA AL WASHLIYAH 2 PERDAGANGAN, saya mulai belajar html membuat personal web pada
+          pada kelas 11</p>
+          </section>
+          <hr>
+          <!-- kode mengenai skill -->
+        <section class="section">
+            <h2 class="section-header">Skill</h2>
+            <div class="responsive-table">
+                <table>
+                   <tr class="tr-header">
+                      <th>&nbsp;</th>
+                      <th>Percent</th>
+                   </tr>
+                    <tr>
+                      <td class="text-left">COMMUNICATION SKILLS</td>
+                      <td>80%</td>
+                    </tr>
+                    <tr>
+                      <td class="text-left">COMPUTER SKILL</td>
+                      <td>80%</td>
+                    </tr>
+                    <tr>
+                      <td class="text-left">INTERPERSONAL SKILLS</td>
+                      <td>75%</td>
+                    </tr>
+                    <tr>
+                      <td class="text-left">PROBLEM SOLVING SKILLS</td>
+                      <td>85%</td>
+                    </tr>
+                </table>
+              </div>
+        </section>
+        <hr>
+        <!-- list education -->
+        <section class="section section-small">
+          <h2 class="section-header">Education</h2>
+            <p>SD : SD SWASTA AL-ITTIHADIAH | 2016 - 2021</p>
+        <P>SMP : MTS SWASTA BUSTANUL ALIM | 2021-2022</P>
+        <P>SMK : SMK SWASTA AL WASHLIYAH 2 PERDAGANGAN | 2022</P>
+            <h5>FRESH GRADUATE</h5>
+            <p>Fresh graduate dari sekolah SMKS AL WAHLIYAH 2 PERDAGANGAN 
+          Dengan jurusan REKAYASA PERANGKAT LUNAK</p>
+        </section>
+    </div>
+    <footer>
+         <p class="footer-text">Copyright &copy; 2021</p>
+      </footer>
+  </div>
 </body>
 </html>
